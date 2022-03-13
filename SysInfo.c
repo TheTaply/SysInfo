@@ -5,7 +5,6 @@
 
 int main()
 {
-
     struct utsname info;
   
     if (uname(&info) < 0)
